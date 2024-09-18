@@ -90,6 +90,8 @@
 									"script": {
 										"id": "00c270e7-ace7-45df-9dd4-248916266901",
 										"exec": [
+											"//some comment",
+											"//some comment",
 											"//some comment"
 										],
 										"type": "text/javascript",
