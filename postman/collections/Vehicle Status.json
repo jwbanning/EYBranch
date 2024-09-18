@@ -84,6 +84,21 @@
 					"item": [
 						{
 							"name": "Doors",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "1a9384ff-1c53-499b-adcf-db45e51f0994",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "397dea78-24ae-4af8-9273-fc92e9b0f847",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -693,7 +708,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "97156292-5700-4bc9-bdab-cf2d3c57d380",
+				"id": "c1f4d72b-ab95-443c-aa7c-b382725a0928",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -704,7 +719,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "3070ae74-4db4-4187-b12e-adebe9cacd17",
+				"id": "1344f50e-e49c-4dd5-bb95-2aee97208b89",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -715,9 +730,15 @@
 	],
 	"variable": [
 		{
-			"id": "0afe4bcd-8ed6-453f-9268-4793c3c0d308",
+			"id": "64de1a51-da4c-4294-8282-54c957b4af2d",
 			"key": "baseUrl",
 			"value": "https://3b4460f7-ef7e-41a1-80b9-fe742a76a1eb.mock.pstmn.io"
+		},
+		{
+			"id": "0e4925b6-a635-4cfb-9f79-0ae606f5baed",
+			"key": "foo",
+			"value": "bar",
+			"type": "string"
 		}
 	]
 }
