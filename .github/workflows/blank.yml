@@ -15,5 +15,4 @@ jobs:
       - name: Run API tests
         run: |
           postman collection run "${{ github.workspace }}/postman/collections/Vehicle Status.json" --integration-id "168754-${{ github.run_id }}"
-          # Lint your API using Postman CLI
-          postman api lint 8d3ee309-2f0a-4af9-b922-df41e634c51a --integration-id 168754
+    
