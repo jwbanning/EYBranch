@@ -689,11 +689,35 @@
 			"id": "ca88cca0-afd3-4331-8c56-fab67f076bc1"
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "97156292-5700-4bc9-bdab-cf2d3c57d380",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3070ae74-4db4-4187-b12e-adebe9cacd17",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "5a8f13db-0454-4f44-8cec-8fe0f779ba38",
+			"id": "0afe4bcd-8ed6-453f-9268-4793c3c0d308",
 			"key": "baseUrl",
-			"value": "{{url}}"
+			"value": "https://3b4460f7-ef7e-41a1-80b9-fe742a76a1eb.mock.pstmn.io"
 		}
 	]
 }
