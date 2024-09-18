@@ -84,6 +84,19 @@
 					"item": [
 						{
 							"name": "Doors",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "00c270e7-ace7-45df-9dd4-248916266901",
+										"exec": [
+											"//some comment"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "397dea78-24ae-4af8-9273-fc92e9b0f847",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
